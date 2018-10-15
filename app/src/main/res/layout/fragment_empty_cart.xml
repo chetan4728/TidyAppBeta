@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp" android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:padding="12dp">
+
+
+
+
+    </LinearLayout>

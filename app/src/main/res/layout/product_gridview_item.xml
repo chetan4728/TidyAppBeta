@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_custom_gridview_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#fff"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:tag="wishlist"
+                    android:padding="14dp"
+                    android:background="#fff"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="12dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/dicount"
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:layout_weight="10"
+                    android:textSize="11sp"
+                    android:elevation="2dp"
+                    android:layout_height="wrap_content"
+                    android:background="#5bc975"
+                    android:textColor="#fff"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/product_Image"
+                android:layout_width="160dp"
+                android:padding="5dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitXY"
+                android:layout_height="160dp" />
+
+
+            <TextView
+                android:id="@+id/prodcutName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textStyle="bold"
+                android:textColor="#333"
+                android:scrollHorizontally="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="12sp" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:layout_gravity="center_horizontal"
+                android:progressTint="#D4AF37"
+                android:backgroundTint="#D4AF37"
+                android:secondaryProgressTint="#D4AF37"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:stepSize="1"
+                android:rating="5"
+                android:id="@+id/pop_ratingbar"
+                style="?android:attr/ratingBarStyleSmall"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="2dp"
+                        android:textColor="#333"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:id="@+id/symobi2"/>
+
+
+                    <TextView
+                        android:id="@+id/specialprodcutPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:paddingLeft="1dp"
+                        android:paddingRight="4dp"
+                        android:textColor="#333"
+                        android:scrollHorizontally="true"
+                        android:ellipsize="end"
+                        android:textStyle="bold"
+                        android:maxLines="1"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:textColor="#7e7f80"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="bold"
+                        android:id="@+id/symobi1"/>
+
+                    <TextView
+                        android:id="@+id/prodcutPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:paddingTop="2dp"
+                        android:textColor="#7e7f80"
+                        android:scrollHorizontally="true"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textSize="12sp" />
+
+
+
+                    <TextView
+                        android:id="@+id/discount"
+                        android:textColor="#7e7f80"
+                        android:textSize="10sp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content">
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

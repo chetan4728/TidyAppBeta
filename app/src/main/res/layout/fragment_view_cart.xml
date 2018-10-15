@@ -1,0 +1,298 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:id="@+id/cartFragment"
+    android:layout_height="match_parent"
+    tools:context="com.tidyhomz.admin.tidyappbeta.View.Fragment.ViewCartFragment">
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:id="@+id/pagerscroll"
+        android:layout_below="@+id/cutometopheader"
+        android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:background="#22a6e3"
+                        android:id="@+id/wallet_layout"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:textSize="17dp"
+                            android:text="Tidy Wallet"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:textColor="#fff"
+                            android:layout_marginLeft="15dp"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:textSize="12dp"
+                            android:id="@+id/textlimit"
+                            android:layout_marginTop="10dp"
+                            android:textColor="#fff"
+                            android:layout_marginLeft="15dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_height="wrap_content">
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/walletcash"
+                                android:textColor="#fff"
+                                android:layout_marginTop="10dp"
+                                android:textStyle="bold"
+                                android:buttonTint="#fff"
+                                android:paddingLeft="10dp"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:textSize="12dp"
+                                android:text="Terms &amp; Conditions"
+                                android:textColor="#fff"
+                                android:layout_marginTop="10dp"
+                                android:id="@+id/termsandcond"
+                                android:layout_marginLeft="10dp"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_height="wrap_content">
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:orientation="horizontal"
+                                        android:padding="10dp"
+                                        android:id="@+id/offersection"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:layout_width="0dp"
+                                            android:id="@+id/cupnresponse"
+                                            android:layout_weight="2"
+                                            android:textSize="13sp"
+                                            android:layout_gravity="center_vertical"
+                                            android:background="#d6e9c6"
+                                            android:textAlignment="center"
+                                            android:visibility="gone"
+                                            android:padding="10dp"
+                                            android:textColor="#3c763d"
+                                            android:layout_height="wrap_content" />
+                                        <EditText
+                                            android:layout_width="0dp"
+                                            android:layout_weight="3"
+                                            android:id="@+id/editcoupcode"
+                                            android:hint="Your coupon Code "
+                                            android:layout_height="wrap_content" />
+
+                                        <Button
+                                            android:layout_width="0dp"
+                                            android:layout_weight="1"
+                                            android:text="Apply"
+                                            android:id="@+id/appycpn"
+                                            android:layout_gravity="center_vertical"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_height="wrap_content" />
+
+                                        <Button
+                                            android:layout_width="0dp"
+                                            android:layout_weight="1"
+                                            android:text="Remove"
+                                            android:visibility="gone"
+                                            android:id="@+id/RemoveCoupn"
+                                            android:layout_gravity="center_vertical"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_height="wrap_content" />
+
+
+
+                                    </LinearLayout>
+
+
+
+                                    <View
+                                        android:layout_width="wrap_content"
+                                        android:background="#ddd"
+                                        android:layout_height="10dp"></View>
+                                </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="horizontal"
+                                android:padding="10dp"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="2"
+                                    android:id="@+id/giftyresponse"
+                                    android:textSize="10sp"
+                                    android:layout_gravity="center_vertical"
+                                    android:background="#d6e9c6"
+                                    android:visibility="gone"
+                                    android:padding="15dp"
+                                    android:textColor="#3c763d"
+                                    android:layout_height="wrap_content" />
+
+                                <EditText
+                                    android:layout_width="0dp"
+                                    android:layout_weight="3"
+                                    android:id="@+id/getgiftcode"
+                                    android:hint="Gift certificate code "
+                                    android:layout_height="wrap_content" />
+
+                                <Button
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:text="Apply"
+                                    android:id="@+id/applygift"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_height="wrap_content" />
+                                <Button
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:text="Remove"
+                                    android:visibility="gone"
+                                    android:id="@+id/removegift"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_height="wrap_content" />
+
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:background="#ddd"
+                        android:layout_height="10dp"></View>
+
+                           <ListView
+                        android:layout_width="match_parent"
+                        android:id="@+id/listcartview"
+                        android:layout_marginTop="10dp"
+                        android:dividerHeight="10dp"
+                        android:layout_height="wrap_content"></ListView>
+
+
+
+
+                                          <ListView
+                                              android:layout_width="match_parent"
+                                              android:divider="@android:color/transparent"
+                                              android:id="@+id/priceList"
+                                              android:layout_height="wrap_content"></ListView>
+
+
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:background="#fff"
+                        android:layout_height="40dp"></View>
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:elevation="10dp"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:id="@+id/gotoprice"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:layout_height="wrap_content">
+        <TextView
+
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="gravity"
+            android:id="@+id/proceedPrice"
+            android:textColor="#333"
+            android:textStyle="bold"
+            android:layout_marginLeft="2dp"
+            android:textSize="15sp"
+            />
+
+    <TextView
+
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="gravity"
+        android:textColor="#22a6e3"
+        android:text="View Price Detail"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="2dp"
+        android:textSize="10sp"
+        />
+</LinearLayout>
+        <Button
+            android:layout_width="0dp"
+            android:background="#22ace3"
+            android:layout_weight="1"
+            android:text="Continue"
+            android:textColor="#fff"
+            android:id="@+id/proceed"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

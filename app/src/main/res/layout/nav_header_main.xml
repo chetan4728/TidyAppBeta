@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/slider1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        tools:ignore="UselessParent">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:text="Hello Guest"
+             android:textSize="15sp"
+             android:layout_marginLeft="15dp"
+             android:id="@+id/SessionUsername"
+             android:textAlignment="center"
+             android:typeface="serif"
+             android:textColor="#fff"
+             android:textStyle="bold"
+             android:layout_height="wrap_content"
+             tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:textColor="#fff"
+            android:id="@+id/loginme"
+            android:textSize="14sp"
+            android:layout_marginLeft="10dp"
+            android:textAllCaps="false"
+            android:text="Login or Sign Up"
+            android:background="@drawable/btn_login_style"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
+

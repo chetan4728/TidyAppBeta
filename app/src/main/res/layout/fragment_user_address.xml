@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tidyhomz.admin.tidyappbeta.View.Fragment.UserAddressFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:ignore="UselessParent">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/add_new"
+        android:background="#fff"
+        android:textColor="#333"
+        android:text="Add New Address"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/AddressList"
+            android:cacheColorHint="#00000000"
+            android:scrollbars="none"
+            android:fadingEdge="vertical"
+            android:soundEffectsEnabled="true"
+            android:dividerHeight="4dp"
+            android:padding="5dip"
+            android:divider="@android:color/transparent"
+            android:smoothScrollbar="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="false"
+            android:layout_marginBottom="10dip"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</FrameLayout>

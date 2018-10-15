@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tidyhomz.admin.tidyappbeta.View.Fragment.ViewMoreFragment">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.tidyhomz.admin.tidyappbeta.Helpers.MyGridView
+        android:id="@+id/ViewMoreGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e5e5e5"
+        android:scrollbars="none"
+        android:paddingRight="-1dp"
+        android:horizontalSpacing="1dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="1dp"
+        ></com.tidyhomz.admin.tidyappbeta.Helpers.MyGridView>
+</ScrollView>
+</FrameLayout>

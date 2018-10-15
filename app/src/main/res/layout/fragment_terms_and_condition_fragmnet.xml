@@ -1,0 +1,290 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.tidyhomz.admin.tidyappbeta.View.Fragment.TermsAndConditionFragmnet">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="IN GENERAL"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/GENERAL"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="PROHIBITIONS"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/PROHIBITIONS"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="TERMS OF SALE"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/termSale"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="DISCLAIMER OF WARRANTIES"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/warnaty"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="INTELLECTUAL PROPERTY, SOFTWARE AND CONTENT"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/softwate"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="NVALIDITY"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/NVALIDITY"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="PRIVACY POLICY"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/privacy"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="INDEMNITY"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/INDEMNITY"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="ENTIRE AGREEMENT"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/aggreement"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="GOVERNING LAW AND JURISDICTION"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/govering"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="COMPLAINTS"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/COMPLAINTS"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="ASSIGNMENT"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/ASSIGNMENT"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="DISCOUNTS"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/DISCOUNTS"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="SPECIAL OFFERS"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/special"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="COLOR AND SIZING DISCLAIMER"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/colors"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="REFUND POLICY"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/refund"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="SHIPPING AND DELIVERY POLICY"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/shipping"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

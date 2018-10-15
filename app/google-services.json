@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "709371979797",
+    "firebase_url": "https://tidyappbeta-d7ae5.firebaseio.com",
+    "project_id": "tidyappbeta-d7ae5",
+    "storage_bucket": "tidyappbeta-d7ae5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709371979797:android:9e53faf6ea13b243",
+        "android_client_info": {
+          "package_name": "com.tidyhomz.admin.tidyappbeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709371979797-smrksb2144puerb240hl4j5ursfq6g4d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tidyhomz.admin.tidyappbeta",
+            "certificate_hash": "16d1da5cf5772cfef8fb3b99436a1e7ee5357e27"
+          }
+        },
+        {
+          "client_id": "709371979797-nr11mu44bnetm7lk031ldmuocmastooq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvJSpVTtCK5rzNzoMT60YBaFiQgSocyTA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709371979797-nr11mu44bnetm7lk031ldmuocmastooq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

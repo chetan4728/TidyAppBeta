@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tidyhomz.admin.tidyappbeta.View.Fragment.SupportChatFragment">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+            <WebView
+                android:id="@+id/webView1"
+                android:paddingTop="-50dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+    <RelativeLayout
+        android:layout_width="100dp"
+
+        android:id="@+id/back"
+        android:layout_marginTop="2dp"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#fff"
+            android:text="Back"
+            android:textStyle="bold"
+            android:layout_marginLeft="35dp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_height="30dp"></RelativeLayout>
+</RelativeLayout>
+</FrameLayout>

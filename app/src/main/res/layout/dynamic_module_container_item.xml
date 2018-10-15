@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/radius_shape"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/container_heading"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="#37474F"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#e5e5e5"
+            android:layout_height="1dp"></View>
+
+
+        <com.tidyhomz.admin.tidyappbeta.Helpers.MyGridView
+            android:id="@+id/containerGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e5e5e5"
+            android:scrollbars="none"
+            android:paddingRight="-1dp"
+            android:horizontalSpacing="1dp"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="1dp"
+            ></com.tidyhomz.admin.tidyappbeta.Helpers.MyGridView>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#e5e5e5"
+            android:layout_height="1dp"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/container_view_more"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="VIEW ALL"
+                android:textColor="#37474F"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

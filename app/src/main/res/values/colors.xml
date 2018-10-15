@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#22a6e3</color>
+    <color name="colorPrimaryDark">#22a6e3</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="StatusBar">#0a95d6</color>
+    <color name="semiTransparentWhite">#40FFFFFF</color>
+    <color name="alertme">#F1948A</color>
+    <color name="product">#616161</color>
+    <color name="white">#fff</color>
+    <color name="red">#F1948A</color>
+</resources>

@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.tidyhomz.admin.tidyappbeta.View.Fragment.UserTransactionFragment">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+
+          android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/totalTransaction"
+                android:layout_width="match_parent"
+                android:background="#22a6e3"
+                android:textColor="#fff"
+                android:layout_marginTop="1dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:padding="10dp" />
+
+            <ListView
+                android:id="@+id/UserTransaction"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+      </LinearLayout>
+
+
+</FrameLayout>

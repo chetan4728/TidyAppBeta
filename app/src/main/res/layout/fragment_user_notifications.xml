@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.tidyhomz.admin.tidyappbeta.View.Fragment.UserNotifications">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:visibility="gone"
+            android:layout_marginTop="1dp"
+            android:id="@+id/notificationcount"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:background="#22a6e3"
+            android:layout_height="wrap_content" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/notificationList"
+            android:divider="#ddd"
+            android:dividerHeight="2dp"
+            android:layout_height="match_parent"></ListView>
+    </LinearLayout>
+
+
+</FrameLayout>

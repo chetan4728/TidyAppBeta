@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:id="@+id/UserFirstName"
+                android:layout_margin="10dp"
+                android:background="@drawable/black_border"
+                android:gravity="top|left"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:hint="Enter First Name"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                />
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:id="@+id/UserLasttName"
+                android:layout_margin="10dp"
+                android:background="@drawable/black_border"
+                android:gravity="top|left"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:hint="Enter Last Name"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:id="@+id/UserMobile"
+                android:layout_margin="10dp"
+                android:background="@drawable/black_border"
+                android:gravity="top|left"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:hint="Enter Mobile"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:id="@+id/company"
+                android:layout_margin="10dp"
+                android:background="@drawable/black_border"
+                android:gravity="top|left"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:hint="Enter Company"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:id="@+id/addressLine1"
+                android:layout_margin="10dp"
+                android:background="@drawable/black_border"
+                android:gravity="top|left"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:hint="Address Line 1"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:id="@+id/addressLine2"
+                android:layout_margin="10dp"
+                android:background="@drawable/black_border"
+                android:gravity="top|left"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:hint="Address Line 2"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:id="@+id/postcode"
+                android:layout_margin="10dp"
+                android:background="@drawable/black_border"
+                android:gravity="top|left"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:hint="Enter Postal Code"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:id="@+id/City"
+                android:layout_margin="10dp"
+                android:background="@drawable/black_border"
+                android:gravity="top|left"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:hint="Enter City"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:layout_margin="10dp"
+                android:gravity="top|left"
+                android:id="@+id/statedp"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"></Spinner>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:layout_margin="10dp"
+                android:gravity="top|left"
+                android:id="@+id/countrydp"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"></Spinner>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+    </ScrollView>
+</LinearLayout>

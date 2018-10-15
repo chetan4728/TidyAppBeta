@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:id="@+id/UserName"
+                android:layout_margin="10dp"
+                android:background="@drawable/black_border"
+                android:gravity="top|left"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:hint="Enter Name"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                />
+
+            <EditText
+                android:id="@+id/Userreview"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+
+                android:lines="5"
+                android:layout_margin="10dp"
+                android:background="@drawable/black_border"
+                android:gravity="top|left"
+                android:hint="Enter Review Description"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:numStars="5"
+                android:id="@+id/Userrating"
+                android:progressTint="#D4AF37"
+                android:layout_marginLeft="-30dp"
+                android:backgroundTint="#D4AF37"
+                android:scaleX="0.6"
+                android:scaleY="0.6"
+                style="?android:attr/smallIcon"
+                android:secondaryProgressTint="#D4AF37"
+                android:layout_height="50dp" />
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

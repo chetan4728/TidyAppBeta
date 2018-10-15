@@ -1,0 +1,262 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.tidyhomz.admin.tidyappbeta.View.Fragment.AddUpdateUserAddress">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#fff"
+                android:layout_marginTop="?attr/actionBarSize"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content">
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/input_layout_address1"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:id="@+id/addressLine1"
+                        android:paddingTop="10dp"
+                        android:hint="Address Line 1"
+                        android:inputType="textMultiLine"
+                        android:scrollHorizontally="false"
+                        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/input_layout_address2"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:id="@+id/addressLine2"
+                        android:paddingTop="10dp"
+                        android:hint="Address Line 2"
+                        android:inputType="textMultiLine"
+                        android:scrollHorizontally="false"
+                        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/input_layout_postcode"
+                    android:layout_height="match_parent">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:id="@+id/postcode"
+                        android:maxLength="6"
+                        android:hint="Enter Postal Code"
+                        android:inputType="number"
+                        android:scrollHorizontally="false"
+                        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/input_layout_city"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:id="@+id/City"
+                        android:paddingTop="10dp"
+                        android:hint="Enter City"
+                        android:inputType="textMultiLine"
+                        android:scrollHorizontally="false"
+                        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+                </android.support.design.widget.TextInputLayout>
+
+
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:tag="test"
+                    android:textSize="15sp"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:spinnerMode="dialog"
+                    android:id="@+id/countrydp"
+                    android:layout_height="wrap_content"></Spinner>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/layout_spinner_state"
+                    android:layout_height="wrap_content">
+                        <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:tag="test"
+                            android:textSize="15sp"
+                            android:textAlignment="center"
+                            android:spinnerMode="dialog"
+                            android:id="@+id/statedp"
+                            android:layout_height="wrap_content"></Spinner>
+                </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_height="1dp"></View>
+
+
+
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/input_layout_fname"
+                    android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:id="@+id/UserFirstName"
+                    android:paddingTop="10dp"
+                    android:hint="Enter First Name"
+                    android:inputType="textMultiLine" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/input_layout_lname"
+                    android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:id="@+id/UserLasttName"
+                    android:paddingTop="10dp"
+                    android:hint="Enter Last Name"
+                    android:inputType="textMultiLine"
+                    android:scrollHorizontally="false"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/input_layout_mobile"
+                    android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:id="@+id/UserMobile"
+                    android:paddingTop="10dp"
+                    android:maxLength="10"
+                    android:hint="Enter Mobile"
+                    android:inputType="number"
+                    android:scrollHorizontally="false"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+</android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/input_layout_company"
+                    android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:id="@+id/company"
+                    android:paddingTop="10dp"
+                    android:hint="Enter Copmany"
+                    android:inputType="textMultiLine"
+                    android:scrollHorizontally="false"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+                </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="15sp"
+                    android:text="Default Address"
+                    android:textColor="?android:textColorHint"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="match_parent" />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/select_address"
+                        android:checkedButton="@+id/default_no"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/default_yes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:tag="1"
+                            android:textColor="?android:textColorHint"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/default_no"
+                            android:layout_width="wrap_content"
+                            android:tag="0"
+                            android:layout_height="wrap_content"
+                            android:textColor="?android:textColorHint"
+                            android:text="No" />
+                    </RadioGroup>
+
+        </LinearLayout>
+
+             <Button
+                 android:layout_width="match_parent"
+                 android:text="Save"
+                 android:layout_marginTop="20dp"
+                 android:id="@+id/submitAdd"
+                 android:background="#22a3e3"
+                 android:textColor="#fff"
+                 android:layout_height="wrap_content" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"></View>
+
+
+
+
+            </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

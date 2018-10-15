@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.tidyhomz.admin.tidyappbeta.View.Fragment.ConfirmOrderFragment">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+   <ListView
+       android:layout_width="match_parent"
+       android:divider="@null"
+       android:id="@+id/productList"
+       android:layout_height="wrap_content"></ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Price Detail"
+        android:padding="10dp"
+        android:background="#ddd"
+        android:textColor="#333"
+
+        android:layout_height="wrap_content" />
+
+  <ListView
+      android:layout_width="match_parent"
+      android:id="@+id/finalPriceList"
+      android:layout_height="wrap_content"></ListView>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></View>
+
+</LinearLayout>
+
+</ScrollView>
+  <Button
+      android:layout_width="match_parent"
+      android:text="Confirm Order"
+      android:background="#22ace3"
+      android:textColor="#fff"
+      android:textSize="18sp"
+      android:id="@+id/confirmfinal"
+      android:layout_gravity="bottom"
+      android:layout_height="wrap_content" />
+
+</FrameLayout>

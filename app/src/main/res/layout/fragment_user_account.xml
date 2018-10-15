@@ -1,0 +1,448 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.tidyhomz.admin.tidyappbeta.View.Fragment.UserAccountFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:elevation="15dp"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="@drawable/tidyhomzbread"
+    android:layout_height="150dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#99000000"
+
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/user_image"
+            android:layout_height="50dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:textColor="#fff"
+                            android:textSize="20sp"
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/showname"
+                            android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:textColor="#fff"
+                                android:layout_marginTop="5dp"
+                                android:id="@+id/editme"
+                                android:text="Edit Profile"
+                                android:layout_height="wrap_content" />
+                </LinearLayout>
+                        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#333"
+        android:id="@+id/showemail"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+
+
+
+<View
+    android:layout_width="match_parent"
+    android:background="#ddd"
+    android:layout_height="2dp"></View>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+                android:layout_marginTop="20dp"
+        android:layout_height="match_parent">
+
+
+
+
+
+
+             <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#fff"
+            android:id="@+id/addressbook"
+                 android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:background="@drawable/notebook"
+                        android:layout_height="25dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Address Book"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:textColor="#333"
+                        android:layout_height="match_parent" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/rightms"
+                        android:layout_height="20dp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+                 <View
+                     android:layout_width="match_parent"
+                     android:layout_height="1dp"
+                     android:background="#ddd"></View>
+        </LinearLayout>
+
+
+
+             <LinearLayout
+                        android:layout_width="match_parent"
+                        android:background="#fff"
+                        android:orientation="vertical"
+                        android:id="@+id/ChangePassword"
+                        android:layout_height="match_parent">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:padding="10dp"
+
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_height="match_parent">
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:background="@drawable/padlock"
+                                    android:layout_height="25dp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_weight="3"
+                                    android:text="Change Password"
+                                    android:textSize="15sp"
+                                    android:layout_marginLeft="20dp"
+                                    android:gravity="center_vertical"
+                                    android:textColor="#333"
+                                    android:layout_height="match_parent" />
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:gravity="center_vertical"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginRight="15dp"
+                                    android:background="@drawable/rightms"
+                                    android:layout_height="20dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                 <View
+                     android:layout_width="match_parent"
+                     android:layout_height="1dp"
+                     android:background="#ddd"></View>
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:id="@+id/tidywallet"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:background="@drawable/wallet"
+                            android:layout_height="25dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_weight="3"
+                            android:text="Tidy Wallet"
+                            android:textSize="15sp"
+                            android:layout_marginLeft="20dp"
+                            android:gravity="center_vertical"
+                            android:textColor="#333"
+                            android:layout_height="match_parent" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:gravity="center_vertical"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/rightms"
+                            android:layout_marginRight="15dp"
+                            android:layout_height="20dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ddd"></View>
+
+             <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/transaction"
+            android:background="#fff"
+                 android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:background="@drawable/transaction"
+                        android:layout_height="25dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Transaction"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:textColor="#333"
+                        android:layout_height="match_parent" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/rightms"
+                        android:layout_height="20dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+                 <View
+                     android:layout_width="match_parent"
+                     android:layout_height="1dp"
+                     android:background="#ddd"></View>
+        </LinearLayout>
+
+
+
+             <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#fff"
+                 android:orientation="vertical"
+            android:id="@+id/wishlistview"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:background="@drawable/whishlist"
+                        android:layout_height="25dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Wish List"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:textColor="#333"
+                        android:layout_height="match_parent" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/rightms"
+                        android:layout_marginRight="15dp"
+                        android:layout_height="20dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+                 <View
+                     android:layout_width="match_parent"
+                     android:layout_height="1dp"
+                     android:background="#ddd"></View>
+        </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#fff"
+                android:id="@+id/cartview"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:background="@drawable/sp_cart"
+                            android:layout_height="25dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_weight="3"
+                            android:text="Shopping Cart"
+                            android:textSize="15sp"
+                            android:layout_marginLeft="20dp"
+                            android:gravity="center_vertical"
+                            android:textColor="#333"
+                            android:layout_height="match_parent" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:gravity="center_vertical"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/rightms"
+                            android:layout_height="20dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ddd"></View>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#fff"
+                android:id="@+id/Logoutme"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="match_parent">
+                         <ImageView
+                             android:layout_width="25dp"
+                             android:background="@drawable/logout"
+                             android:layout_height="25dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_weight="3"
+                            android:text="Sign Out"
+                            android:textSize="15sp"
+                            android:layout_marginLeft="20dp"
+                            android:gravity="center_vertical"
+                            android:textColor="#333"
+                            android:layout_height="match_parent" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:gravity="center_vertical"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/rightms"
+                            android:layout_marginRight="15dp"
+                            android:layout_height="20dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ddd"></View>
+            </LinearLayout>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+</FrameLayout>

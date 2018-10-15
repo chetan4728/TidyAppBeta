@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.tidyhomz.admin.tidyappbeta.View.Fragment.ProductViewFragment">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="8"
+        android:background="#ddd"
+        android:elevation="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="horizontal"
+            android:id="@+id/SortView"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3.4"
+            android:background="@drawable/right_border"
+            android:layout_height="44dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="35dp"
+
+                android:background="@drawable/sort"
+                android:layout_height="25dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#333"
+                android:text="Sort"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/right_border"
+            android:id="@+id/filterList"
+            android:layout_weight="3.4"
+            android:layout_height="44dp">
+
+
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/ic_action_filter"
+                android:layout_height="25dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#333"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:text="Filter"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:background="#ffff"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:layout_height="44dp"
+            >
+            <ToggleButton
+                android:layout_width="30dp"
+                android:textOn=""
+                android:id="@+id/toggleList"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="11dp"
+                android:textOff=""
+                android:background="@drawable/toogle"
+                android:layout_height="30dp"
+                />
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_below="@+id/filters"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/gridviewcontainer"
+            android:layout_height="wrap_content">
+        <GridView
+            android:id="@+id/gridViewProduct"
+            android:layout_width="match_parent"
+            android:background="#ddd"
+            android:scrollbars="none"
+            android:layout_height="match_parent"
+            android:horizontalSpacing="1dp"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="1dp"></GridView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="#ddd"
+            android:layout_height="wrap_content">
+        <ListView
+            android:layout_width="wrap_content"
+            android:scrollbars="none"
+            android:visibility="gone"
+            android:id="@+id/ProductListview"
+            android:layout_height="wrap_content"></ListView>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

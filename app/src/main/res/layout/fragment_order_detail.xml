@@ -1,0 +1,228 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.tidyhomz.admin.tidyappbeta.View.Fragment.OrderDetailFragment">
+<ScrollView
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_height="match_parent"
+    tools:ignore="ScrollViewSize">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+     <TextView
+         android:layout_width="match_parent"
+         android:text="Order Detail"
+         android:textColor="#333"
+         android:background="#ddd"
+         android:padding="8dp"
+         android:layout_height="wrap_content"
+         tools:ignore="HardcodedText" />
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:orientation="vertical"
+          android:layout_height="match_parent">
+
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/OrderIdView"
+                android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/OrderDateAddedView"
+                    android:layout_height="wrap_content" />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:text="Payment Method"
+              android:textColor="#333"
+              android:background="#ddd"
+              android:padding="8dp"
+              android:layout_marginTop="10dp"
+              android:layout_height="wrap_content" />
+
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_marginLeft="5dp"
+              android:layout_marginTop="5dp"
+              android:id="@+id/paymentMethod"
+              android:layout_height="wrap_content" />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:text="Shipping Method"
+              android:textColor="#333"
+              android:background="#ddd"
+              android:padding="8dp"
+              android:layout_marginTop="10dp"
+              android:layout_height="wrap_content" />
+
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_marginLeft="5dp"
+              android:layout_marginTop="5dp"
+              android:id="@+id/shippongtMethod"
+              android:layout_height="wrap_content" />
+
+
+          <TextView
+              android:layout_width="match_parent"
+              android:text="Payment Address"
+              android:textColor="#333"
+              android:background="#ddd"
+              android:padding="8dp"
+              android:layout_marginTop="10dp"
+              android:layout_height="wrap_content" />
+
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_marginLeft="5dp"
+              android:layout_marginTop="5dp"
+              android:id="@+id/Paymentaddresss"
+              android:layout_height="wrap_content" />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:text="Shipping Address"
+              android:textColor="#333"
+              android:background="#ddd"
+              android:padding="8dp"
+              android:layout_marginTop="10dp"
+              android:layout_height="wrap_content" />
+
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_marginLeft="5dp"
+              android:layout_marginTop="5dp"
+              android:id="@+id/Shippingaddresss"
+              android:layout_height="wrap_content" />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:text="Product Detail"
+              android:textColor="#333"
+              android:background="#ddd"
+              android:padding="8dp"
+              android:layout_marginTop="10dp"
+              android:layout_height="wrap_content" />
+
+          <ListView
+              android:layout_width="match_parent"
+              android:id="@+id/productDetail"
+              android:dividerHeight="0dp"
+              android:divider="@android:color/transparent"
+              android:layout_height="match_parent"
+              tools:ignore="NestedScrolling">
+
+
+          </ListView>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:text="Total Price"
+              android:textColor="#333"
+              android:background="#ddd"
+              android:padding="8dp"
+              android:layout_height="wrap_content" />
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_margin="1dp"
+              android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/totalPricetable"
+                    android:layout_height="match_parent"></TableLayout>
+
+
+
+              </LinearLayout>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:text="Order History"
+              android:textColor="#333"
+              android:background="#ddd"
+              android:layout_marginTop="5dp"
+              android:padding="8dp"
+              android:layout_height="wrap_content" />
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_marginBottom="10dp"
+              android:layout_height="wrap_content">
+
+              <TableLayout
+                  android:layout_width="match_parent"
+                  android:layout_marginBottom="10dp"
+                  android:layout_marginTop="2dp"
+                  android:id="@+id/historyTable"
+                  android:layout_height="match_parent">
+
+
+
+
+              </TableLayout>
+
+
+
+          </LinearLayout>
+
+
+
+
+
+
+
+             <Button
+                 android:layout_width="match_parent"
+                 android:textColor="#fff"
+                 android:text="Cancel Order"
+                 android:id="@+id/cancelOrder"
+                 android:visibility="gone"
+                 android:layout_marginTop="5dp"
+                 android:background="#d9534f"
+                 android:layout_height="wrap_content" />
+
+
+
+
+
+      </LinearLayout>
+
+
+</LinearLayout>
+ </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
+
+
+</FrameLayout>

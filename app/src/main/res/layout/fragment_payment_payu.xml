@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tidyhomz.admin.tidyappbeta.View.Fragment.PaymentPayuFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/error_message"
+        android:visibility="gone"
+        android:background="#fff"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:background="@drawable/paymentcancel"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="200dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="You just canceled your Payu order please verify detail and come again.."
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</FrameLayout>

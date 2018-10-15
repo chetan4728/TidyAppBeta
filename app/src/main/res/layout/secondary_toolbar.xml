@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#22a6e3"
+    android:weightSum="3"
+    android:layout_height="60dp">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/backToHome"
+        android:layout_marginLeft="14dp"
+        android:background="@drawable/ic_action_arrow_left"
+        tool:ignore="ContentDescription,RtlHardcoded" />
+
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:ellipsize="marquee"
+
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:textColor="#fff"
+        android:layout_marginTop="15dp"
+        android:text="MY CART"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:freezesText="true"
+        android:id="@+id/set_title"
+        tool:ignore="HardcodedText"
+        android:maxLines="1" />
+
+        <RelativeLayout
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tool:ignore="RtlHardcoded">
+            <ImageView
+                android:id="@+id/cartViewIcon"
+                android:src="@drawable/ic_action_cart"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginRight="10dp"
+
+
+                tool:ignore="ContentDescription,RtlHardcoded"
+                android:contentDescription="" />
+
+            <TextView
+                android:id="@+id/MycartViewCount"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/badge_clircle"
+                android:minWidth="17sp"
+                android:textAlignment="center"
+                android:text="0"
+                android:textColor="#ffffffff"
+                android:visibility="gone"
+                android:textSize="10sp"
+                android:layout_alignTop="@+id/cartViewIcon"
+                android:layout_alignRight="@+id/cartViewIcon"
+                android:layout_alignEnd="@+id/cartViewIcon"
+                tool:ignore="HardcodedText,SmallSp" />
+
+            <ImageView
+                android:id="@+id/WishlistIcon"
+                android:src="@drawable/wishlistheart"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_toRightOf="@+id/cartViewIcon"
+                android:layout_toEndOf="@+id/cartViewIcon"
+
+                android:layout_alignBottom="@+id/cartViewIcon"
+                tool:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/wishlistcountto"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/badge_clircle"
+                android:minWidth="17sp"
+                android:textAlignment="center"
+                android:textColor="#ffffffff"
+                android:textSize="10sp"
+                android:visibility="gone"
+                android:layout_alignTop="@+id/WishlistIcon"
+                android:layout_alignRight="@+id/WishlistIcon"
+                android:layout_alignEnd="@+id/WishlistIcon"
+                tool:ignore="SmallSp" />
+
+            <ImageView
+                android:id="@+id/notificationicondd"
+                android:src="@drawable/ic_action_bell"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignTop="@+id/WishlistIcon"
+                android:layout_toRightOf="@+id/WishlistIcon"
+                android:layout_toEndOf="@+id/WishlistIcon"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="-2dp"
+                tool:ignore="ContentDescription" />
+            <TextView
+                android:id="@+id/notificationIconse"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/badge_clircle"
+                android:layout_marginTop="2dp"
+                android:minWidth="17sp"
+                android:textAlignment="center"
+                android:textColor="#ffffffff"
+                android:textSize="10sp"
+                android:visibility="gone"
+                android:layout_alignTop="@+id/notificationicondd"
+                android:layout_alignRight="@+id/notificationicondd"
+                android:layout_alignEnd="@+id/notificationicondd"
+                tool:ignore="SmallSp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
